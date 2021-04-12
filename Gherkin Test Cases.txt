@@ -1,0 +1,87 @@
+Home page test cases
+
+1. SCENARIO Check Home page title
+   GIVEN The user accesses the Home page
+   WHEN The Home page is displayed
+   THEN The user expects to see the Home page title
+
+2. SCENARIO Check Home page logo
+   GIVEN The user accesses the Home page
+   WHEN The Home page is displayed
+   THEN The user expects to see the logo
+
+3. SCENARIO Check navigation from Home page to Form page
+   GIVEN The user accesses the Home page
+   WHEN The Home page is displayed
+   AND The user clicks on Form button
+   THEN The user expects to be redirected to Form page
+
+4. SCENARIO Check Form button active status
+   GIVEN The user accessed the Home page
+   WHEN The Home page is displayed
+   AND The user clicks on Form button
+   THEN The user expects that Form button has active status
+
+5. SCENARIO Check navigation from Home page to UI testing page
+   GIVEN The user accesses the Home page
+   WHEN The Home page is displayed
+   AND The user clicks on UI testing button
+   THEN The user expects to be redirected to Home page
+
+6. SCENARIO Check specific text to be visible
+   GIVEN The user accesses the Home page
+   WHEN The Home page is displayed
+   THEN The user expects to see "Welcome to the Docler Holding QA Department" as page title
+   AND The user expects to see "This site is dedicated to perform some exercises and demonstrate automated web testing." as paragraph. 
+
+
+Form page test cases
+
+1. SCENARIO Check Form page title
+   GIVEN The user accesses the Form page
+   WHEN The Form page is displayed
+   THEN The user expects to see the Form page title
+
+2. SCENARIO Check Form page logo
+   GIVEN The user accesses the Form page
+   WHEN The Form page is displayed
+   THEN The user expects to see the logo
+
+3. SCENARIO Check navigation from Form page to Home page
+   GIVEN The user accesses the Form page
+   WHEN The From page is displayed
+   AND The user clicks on Home button
+   THEN The user expects to be redirected to Home page
+
+4. SCENARIO Check Home button active status
+   GIVEN The user accesses the Form page
+   WHEN The Form page is displayed
+   AND The user clicks on Home button
+   THEN The user expects that Home button has active status
+
+5. SCENARIO Check navigation from Form page to UI testing page
+   GIVEN The user accesses the Form page
+   WHEN The Form page is displayed
+   AND The user clicks on UI testing button
+   THEN The user expects to be redirected to Home page
+
+6. SCENARIO Check if the form has one input and one submit button
+   GIVEN The user accesses the Form page
+   WHEN The Form page is displayed
+   THEN The user expects that a form with one input and one submit button to be displayed
+
+7. SCENARIO Check form value
+   GIVEN The user accesses the Form page
+   WHEN The Form page is displayed
+   AND The user fill a <value> on the input form
+   AND The user press on submit button
+   THEN The user expects to see "Hello <value>" text on the page
+
+
+Error page test case
+
+1. SCENARIO Check 404 HTTP response code
+   GIVEN The user accesses the Home page
+   WHEN The Home page is displayed
+   AND The user press on Error button
+   THEN The user expects to have 404 error
