@@ -10,7 +10,7 @@ For running DoclerTestJSGherkin project you have the following prerequisites:
 7. npx cypress run 
 8. On the Cypress UI,select the Chrome browser and press "Run integration specs" option
 
-**#Project's Structure**
+# Project Structure
 C:.
 |   .gitignore
 |   cypress.json
